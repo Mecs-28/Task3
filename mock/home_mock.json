@@ -1,0 +1,20 @@
+{
+  "status": true,
+  "data": {
+    "location": {
+      "area": "Gachibowli",
+      "city": "Hyderabad"
+    },
+    "categories": [
+      { "id": 1, "name": "Home Services", "icon": "home.png" },
+      { "id": 2, "name": "Cleaning", "icon": "cleaning.png" }
+    ],
+    "banners": [
+      { "id": 1, "title": "Offer", "image": "banner.png" }
+    ],
+    "services": [
+      { "id": 101, "name": "Cleaning", "image": "cleaning.png" }
+    ]
+  },
+  "message": ""
+}

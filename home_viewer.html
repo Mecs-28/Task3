@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home API Success Viewer</title>
+</head>
+<body>
+
+
+
+<h2>Home API Response</h2>
+
+<button onclick="loadHomeAPI()">Load Home API</button>
+
+<pre id="output">Click the button to load API response...</pre>
+
+<script>
+function loadHomeAPI() {
+    fetch('api/home.php')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('output').textContent =
+                JSON.stringify(data, null, 4);
+        })
+        .catch(error => {
+            document.getElementById('output').textContent =
+                'Error loading Home API';
+        });
+}
+</script>
+
+</body>
+</html>
