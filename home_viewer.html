@@ -19,7 +19,7 @@ function loadHomeAPI() {
         .then(response => response.json())
         .then(data => {
             document.getElementById('output').textContent =
-                JSON.stringify(data, null, 4);
+                JSON.stringify(data, 4);
         })
         .catch(error => {
             document.getElementById('output').textContent =
