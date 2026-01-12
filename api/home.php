@@ -1,3 +1,4 @@
+// Home API endpoint - returns mock dashboard data
 <?php
 
 header("Content-Type: application/json");
