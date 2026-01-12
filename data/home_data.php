@@ -46,6 +46,7 @@ return [
             ]
         ]
     ],
+// Services shown on home screen (mock data)
 
     "services" => [
         "enabled" => true,
